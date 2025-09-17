@@ -1,0 +1,181 @@
+article_9_requirements:
+  prohibition:
+    - id: A9_1
+      requirement: >
+        Processing of personal data revealing racial or ethnic origin,
+        political opinions, religious or philosophical beliefs,
+        trade union membership, genetic data, biometric data for the
+        purpose of uniquely identifying a natural person, data concerning
+        health, or data concerning a natural person's sex life or
+        sexual orientation is prohibited.
+      category: prohibition
+      weight: 5
+      keywords:
+        - ["racial origin", "ethnic origin"]
+        - ["political opinions"]
+        - ["religious beliefs", "philosophical beliefs"]
+        - ["trade union membership"]
+        - ["genetic data"]
+        - ["biometric data"]
+        - ["health data", "data concerning health"]
+        - ["sex life", "sexual orientation"]
+      evidence_phrases:
+        - "shall be prohibited"
+      conditional: false
+
+  exceptions:
+    - id: A9_2a
+      requirement: >
+        Explicit consent is given by the data subject for one or more
+        specified purposes, unless prohibited by law.
+      category: exception
+      weight: 3
+      keywords:
+        - ["explicit consent"]
+        - ["data subject consent"]
+      conditional: true
+
+    - id: A9_2b
+      requirement: >
+        Processing is necessary for obligations and rights in employment,
+        social security, or social protection law, authorized by law or
+        collective agreement with safeguards.
+      category: exception
+      weight: 3
+      keywords:
+        - ["employment law"]
+        - ["social security"]
+        - ["social protection"]
+      conditional: true
+
+    - id: A9_2c
+      requirement: >
+        Processing is necessary to protect the vital interests of the
+        data subject or another person where consent cannot be given.
+      category: exception
+      weight: 3
+      keywords:
+        - ["vital interests"]
+        - ["physically incapable"]
+        - ["legally incapable"]
+      conditional: true
+
+    - id: A9_2d
+      requirement: >
+        Processing is carried out by a non-profit body with political,
+        philosophical, religious, or trade union aim, with safeguards,
+        relating only to members or regular contacts, and not disclosed
+        outside without consent.
+      category: exception
+      weight: 3
+      keywords:
+        - ["non-profit body"]
+        - ["political aim"]
+        - ["religious aim"]
+        - ["trade union aim"]
+      conditional: true
+
+    - id: A9_2e
+      requirement: >
+        Processing relates to personal data manifestly made public by the
+        data subject.
+      category: exception
+      weight: 2
+      keywords:
+        - ["manifestly made public"]
+        - ["publicly available"]
+      conditional: true
+
+    - id: A9_2f
+      requirement: >
+        Processing is necessary for the establishment, exercise, or defense
+        of legal claims, or when courts are acting judicially.
+      category: exception
+      weight: 3
+      keywords:
+        - ["legal claims"]
+        - ["judicial capacity"]
+      conditional: true
+
+    - id: A9_2g
+      requirement: >
+        Processing is necessary for substantial public interest, based on
+        law, proportionate, respecting essence of data protection rights,
+        with safeguards.
+      category: exception
+      weight: 4
+      keywords:
+        - ["substantial public interest"]
+        - ["proportionate to aim"]
+        - ["safeguards"]
+      conditional: true
+
+    - id: A9_2h
+      requirement: >
+        Processing is necessary for preventive or occupational medicine,
+        assessment of working capacity, medical diagnosis, health or social
+        care or treatment, or management of systems, based on law or contract
+        with health professional, subject to safeguards in paragraph 3.
+      category: exception
+      weight: 4
+      keywords:
+        - ["medical diagnosis"]
+        - ["occupational medicine"]
+        - ["health care"]
+        - ["social care"]
+      conditional: true
+
+    - id: A9_2i
+      requirement: >
+        Processing is necessary for reasons of public interest in public
+        health, such as protection against cross-border health threats or
+        ensuring quality and safety of health care, medicinal products,
+        or medical devices, with safeguards.
+      category: exception
+      weight: 4
+      keywords:
+        - ["public health"]
+        - ["cross-border threats"]
+        - ["quality and safety"]
+      conditional: true
+
+    - id: A9_2j
+      requirement: >
+        Processing is necessary for archiving in the public interest,
+        scientific or historical research, or statistical purposes under
+        Article 89(1), based on law, proportionate, respecting data rights,
+        with safeguards.
+      category: exception
+      weight: 3
+      keywords:
+        - ["archiving"]
+        - ["research"]
+        - ["statistical purposes"]
+      conditional: true
+
+  safeguards:
+    - id: A9_3
+      requirement: >
+        Personal data processed for purposes in (h) must be handled by
+        professionals subject to secrecy obligations, or others under
+        equivalent legal secrecy.
+      category: safeguard
+      weight: 3
+      keywords:
+        - ["professional secrecy"]
+        - ["obligation of secrecy"]
+      conditional: true
+
+  member_state_conditions:
+    - id: A9_4
+      requirement: >
+        Member States may add further conditions or limitations on processing
+        genetic data, biometric data, or health data.
+      category: member_state
+      weight: 2
+      keywords:
+        - ["genetic data"]
+        - ["biometric data"]
+        - ["health data"]
+        - ["further conditions"]
+      conditional: true
