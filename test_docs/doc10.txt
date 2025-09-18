@@ -1,0 +1,16 @@
+Title: Data-Sharing Pilot for Rare Disease Research
+
+Overview:
+This pilot connects hospitals, universities, and pharmaceutical firms to create a shared repository of rare disease cases. The goal is to accelerate treatment discovery while maintaining compliance with data protection and ethical standards.
+
+Data Handling:
+Participating hospitals will pseudonymize health data before contribution. Genetic information, when required for research validity, will be processed only with explicit patient consent. All transfers occur through secure APIs, encrypted end-to-end.
+
+Governance:
+Data access is restricted to approved research partners who sign binding confidentiality agreements. Any secondary use of the dataset requires explicit approval by the ethics committee. Regular audits will ensure adherence to Article 9 safeguards.
+
+Transparency and Anti-Corruption:
+All funding sources for this initiative will be disclosed publicly. Contracts with private firms will be published in the national open-data registry to prevent hidden influence. Researchers must declare any potential conflicts of interest before accessing data.
+
+Conclusion:
+This pilot seeks to balance scientific progress with strict GDPR compliance and integrity safeguards, ensuring that trust in rare disease research is preserved.

@@ -1,0 +1,19 @@
+Title: Pilot Project – AI Chatbot for Patient Symptom Triage
+
+Overview:
+This pilot tests a conversational AI chatbot deployed on a hospital’s website to help patients describe their symptoms before visiting a physician. 
+
+Data Collected:
+Patients may provide sensitive information including health status, medication use, and in some cases details about sexual or mental health. The chatbot is not designed to request genetic or biometric data.
+
+Data Handling:
+All conversation logs are stored on a third-party cloud provider located outside the EU. While the provider claims compliance with EU–US data transfer frameworks, the hospital has not implemented additional safeguards. No pseudonymization is currently applied to raw logs.
+
+Consent:
+Patients are shown a general terms-of-use checkbox when accessing the chatbot, but no explicit consent form highlights the processing of special categories of personal data. 
+
+Ethical Review:
+The project has not undergone an independent data protection impact assessment. Clinicians will use chatbot outputs, but patients are not informed that automated decision-making may influence triage outcomes.
+
+Conclusion:
+The chatbot may improve efficiency, but unresolved concerns remain around cross-border data transfers, insufficient consent, and lack of explicit safeguards for sensitive categories of health data.

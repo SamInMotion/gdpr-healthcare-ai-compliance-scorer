@@ -1,0 +1,13 @@
+Title: Evaluating the Efficacy of Wearable Sensors in Monitoring Chronic Heart Disease Patients
+
+Abstract:
+This proposal outlines a study to collect continuous physiological data from patients with chronic heart conditions using wrist-worn wearable sensors. The sensors will capture biometric signals including heart rate variability, oxygen saturation, and step count. 
+
+Data Handling:
+Collected data will be pseudonymized and stored on secure institutional servers. Access will be limited to authorized members of the research team. No genetic data will be processed. Patients will provide explicit consent prior to enrollment, and withdrawal will be possible at any time without consequence.
+
+Ethical Considerations:
+The project will undergo review by the hospital’s Research Ethics Board. Patient data will not be shared with third parties outside the research consortium. Only aggregate statistics will appear in publications.
+
+Conclusion:
+We aim to demonstrate that wearable devices can improve patient outcomes while maintaining strict data protection safeguards.

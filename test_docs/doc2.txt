@@ -1,0 +1,16 @@
+Title: Mobile Application for Diabetes Self-Management
+
+Overview:
+This project involves the development of a smartphone application to assist patients with Type 2 Diabetes in managing their daily routines. The app will allow users to log dietary intake, blood glucose measurements, and medication adherence. 
+
+Data Processing:
+The application will collect data concerning health (glucose levels, weight, medication use). Users will provide explicit consent when creating their accounts. Data will be encrypted during transmission and at rest. Identifiable information such as names or contact details will be stored separately from health records. 
+
+Access Control:
+Only the patient and their designated healthcare provider will have access to the health data. A professional secrecy obligation applies to all providers using the system. No data will be shared with employers, insurers, or third parties. 
+
+Security Safeguards:
+The system will employ two-factor authentication for provider access, audit logs for data access, and automated alerts for unusual login attempts.
+
+Purpose:
+The goal is to empower patients in self-care while ensuring full compliance with data protection and medical confidentiality requirements.

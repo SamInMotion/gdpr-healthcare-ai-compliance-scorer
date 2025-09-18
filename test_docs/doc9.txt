@@ -1,0 +1,16 @@
+Title: Procurement System for AI-Enabled Health Devices
+
+Overview:
+This initiative aims to deploy AI-assisted diagnostic devices in regional hospitals. The project is funded by both government and private partners. The procurement process is designed to ensure transparency, fairness, and compliance with both GDPR and anti-corruption frameworks.
+
+Data Handling:
+Patient data will be collected only after explicit written consent and stored in encrypted servers controlled by the Ministry of Health. No biometric or genetic information will be shared with vendors. Data processing agreements will be signed with all partners.
+
+Anti-Corruption Safeguards:
+Procurement decisions will follow a competitive tender process, published publicly. Any conflict of interest by evaluation committee members must be declared and will disqualify them from voting. All financial flows will be audited annually by an independent body.
+
+Oversight:
+A joint ethics and compliance committee will oversee both data governance and procurement fairness. Breaches of conduct or irregularities in contracting will trigger investigation and potential sanctions.
+
+Conclusion:
+By embedding both GDPR safeguards and anti-corruption controls, this project demonstrates a dual commitment to protecting patients and ensuring integrity in public health procurement.

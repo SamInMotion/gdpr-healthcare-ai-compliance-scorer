@@ -1,0 +1,16 @@
+Title: AI-Driven Risk Stratification for Diabetes Patients
+
+Overview:
+This system is designed to automatically classify diabetes patients into low, medium, and high-risk categories using hospital EHR data. The model ingests patient demographics, prescription history, and biometric indicators such as blood glucose levels and BMI.
+
+Data Handling:
+Raw patient records, including identifiers, are uploaded to a third-party cloud provider for processing. Encryption is optional but not enforced. No explicit patient consent is collected for secondary use of their medical data.
+
+Governance:
+The project is led by a small technical team without formal oversight from the hospital’s ethics board. Data access is not logged, and third-party contractors may view records for debugging purposes.
+
+Safeguards:
+There are no contractual safeguards requiring professional secrecy from developers. No pseudonymization measures are applied before uploading to the cloud. Risk mitigation measures are considered “future work.”
+
+Conclusion:
+While the system promises efficiency, the absence of consent mechanisms, safeguards, and oversight raises major compliance and ethical concerns.
