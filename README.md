@@ -1,7 +1,5 @@
 # gdpr-healthcare-ai-compliance-scorer
 Ontology-first, rules-first framework for assessing GDPR compliance in healthcare AI systems.
-Got it! Here’s the **exact text** you can paste into your empty `README.md`. It’s structured, step-by-step, and explains the purpose/rationale of everything done so far.
-
 ---
 
 # GDPR Healthcare AI Compliance Scorer
