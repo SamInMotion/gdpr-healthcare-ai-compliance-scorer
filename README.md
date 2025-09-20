@@ -12,6 +12,7 @@ The **GDPR Healthcare AI Compliance Scorer** is a modular project designed to **
 * **Reproducible test cases** using synthetic data.
 * A framework that bridges **research experimentation** and **practical industry compliance verification**.
 * **Ontology + rules first approach**: requirements are explicitly modeled as rules, not hidden in ML models.
+* A **Streamlit-based UI** for interactive exploration and exporting compliance reports.
 
 The project is open-source to encourage collaboration and ensure **full transparency and reproducibility**.
 
@@ -26,8 +27,7 @@ The project is open-source to encourage collaboration and ensure **full transpar
 
   * [PyMuPDF](https://pymupdf.readthedocs.io/) (`fitz`) for extracting text from PDFs.
   * [PyYAML](https://pyyaml.org/) for loading compliance rules.
-
-**Rationale:** These tools ensure reproducibility, modular design, and human-readable rule definitions.
+  * [Streamlit](https://streamlit.io/) for interactive UI and visualization.
 
 ---
 
@@ -39,15 +39,11 @@ The project is open-source to encourage collaboration and ensure **full transpar
 git init
 ```
 
-*Establishes version control to track all changes and maintain reproducibility.*
-
 2. **Create directories**
 
 ```bash
-mkdir test_docs
+mkdir test_docs reports
 ```
-
-*Organizes synthetic test documents separately from code for clarity and modularity.*
 
 3. **Add scoring pipeline**
 
@@ -56,104 +52,113 @@ mkdir -p pipeline/scoring
 touch pipeline/scoring/__init__.py
 ```
 
-*Creates a modular scoring package that can be extended to other GDPR articles later.*
+4. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
 ## Synthetic Test Documents for Article 9
 
-* **10 synthetic text documents** (`doc1.txt` – `doc10.txt`) created under `test_docs/`.
+* **10 synthetic text documents** (`doc1.txt` – `doc10.txt`) under `test_docs/`.
 * **Content focus:** Simulated healthcare scenarios relevant to **Article 9: Processing of special categories of personal data**.
-
-**Git workflow:**
-
-```bash
-git add test_docs/*.txt
-git commit -m "Add 10 synthetic test documents for Article 9 compliance scoring"
-git push
-```
-
-*Rationale: Establishes a **baseline dataset** for reproducible testing without exposing real patient data.*
+* Additional reference document: **CELEX\_32016R0679\_EN\_TXT\_GDPR.pdf** (GDPR text).
 
 ---
 
 ## Rule-Based Scoring (Article 9)
 
-1. **Rules file (`article9_rules.yaml`)**
+1. **Rules file (`article9.yaml`)**
 
-   * Defines each clause of Article 9 as **human-readable rules** (`A9_1`, `A9_2a`, … `A9_4`).
-   * Each rule contains:
-
-     * **description** (plain-language text of requirement)
-     * **keywords** (used for lightweight matching in extracted text)
-     * **weight** (importance in final scoring)
-
-*Rationale:* YAML keeps rules transparent, editable, and version-controllable.
+   * Each clause of Article 9 is defined as a human-readable rule (`A9_1`, `A9_2a`, … `A9_4`).
+   * Rules specify `description`, `keywords`, and `weight`.
 
 2. **Scorer (`article9_scorer.py`)**
 
-   * Loads YAML rules.
-   * Extracts text from PDF with **PyMuPDF**.
-   * Checks text against rules.
+   * Loads YAML rules and applies them to extracted text.
    * Produces:
 
-     * **Score (normalized to 0–100%)**
+     * **Score (0–100%)**
      * **Compliance level** (✅ High, ⚠️ Partial, ❌ Non-compliant)
-     * **Passed / failed requirements**
+     * **Requirements met/failed**
      * **Warnings for critical prohibitions**
 
-3. **Test runner (`test_all_pdfs.py`)**
+3. **Streamlit App (`app.py`)**
 
-   * Iterates through PDFs in `test_docs/`.
-   * Runs Article 9 scorer.
-   * Prints structured results.
+   * Upload and score PDFs interactively.
+   * Displays:
+
+     * Compliance score
+     * Passed/failed requirements
+     * Priority actions
+   * Allows exporting results to Markdown reports under `reports/`.
 
 ---
 
 ## Example Run
 
+Run via command line:
+
 ```bash
 python -m pipeline.scoring.test_all_pdfs
 ```
 
-Output:
+Run with UI:
+
+```bash
+streamlit run app.py
+```
+
+Sample Streamlit output:
 
 ```
---- Scoring PDF: CELEX_32016R0679_EN_TXT_GDPR.pdf ---
-Score: 42 / 42
-Percentage: 100%
+Compliance Score: 42/42 (100%)
+Requirements Met: 13
+Requirements Failed: 0
 Compliance Level: ✅ High Compliance
-Passed requirements: ['A9_1', ..., 'A9_4']
-Failed requirements: []
+Priority Actions: No high-priority issues found!
+```
 
---- Scoring PDF: Intergrating NLP with Computer Vision.pdf ---
-Score: 0 / 42
-Percentage: 0%
-Compliance Level: ❌ Non-Compliant - Major Issues
-Passed requirements: []
-Failed requirements: ['A9_1']
-Warnings:
-  - ⚠️ Critical: prohibition - Processing of personal data revealing racial or ethnic origin ...
+Generated Markdown report (example):
+
+```
+# GDPR Article 9 Compliance Report
+
+**Document:** CELEX_32016R0679_EN_TXT_GDPR.pdf  
+**Date:** 2025-09-20 13:25:24
+
+**Score:** 42 / 42 (100%)  
+**Compliance Level:** ✅ High Compliance  
+
+## Breakdown
+- Requirements Met: 13
+- Requirements Failed: 0
+- Priority Actions: None
 ```
 
 ---
 
 ## Rationale for This Approach
 
-1. **Synthetic + Real PDFs:** Allows controlled testing while validating pipeline robustness.
+1. **Synthetic + Real PDFs:** Ensures controlled testing while validating pipeline robustness.
 2. **Ontology + Rules First:** Keeps compliance **explicit and explainable**.
-3. **Normalization:** Ensures scores are always interpretable as **percentages (0–100%)**.
-4. **Warnings:** Highlight critical prohibitions separately from general scoring.
+3. **Streamlit UI:** Enables interactive analysis and quick validation.
+4. **Reports:** Standardized Markdown export for traceability.
 5. **Pipeline modularity:** Easy to extend beyond Article 9 (e.g., EU AI Act, MDR, anti-corruption).
 
 ---
 
 ## Next Steps
 
-* Add **report generation** (JSON/CSV/HTML) for results.
+* Add **multi-format report generation** (JSON/CSV/HTML/PDF).
 * Expand pipeline with **additional GDPR articles**.
 * Introduce **modular compliance packs** (EU AI Act, MDR, anti-corruption).
 * Enable **fine-grained evidence tracing** (text spans linked to rule matches).
+* Improve UI with **charts and filtering options**.
 
 ---
+
+
 
