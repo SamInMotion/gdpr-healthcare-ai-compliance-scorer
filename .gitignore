@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env
+.venv/
+
+# Reports (but keep .gitkeep placeholder)
+reports/*
+!reports/.gitkeep
+
+# Test PDFs
+test_docs/*.pdf
+
+# OS/editor junk
+.DS_Store
+.vscode/
