@@ -1,0 +1,25 @@
+A9_terms:
+  prohibition:
+    en: "prohibition"
+    no: "forbud"
+  racial_origin:
+    en: "racial or ethnic origin"
+    no: "rase eller etnisk opprinnelse"
+  religious_beliefs:
+    en: "religious or philosophical beliefs"
+    no: "religiøse eller filosofiske overbevisninger"
+  trade_union:
+    en: "trade union membership"
+    no: "fagforeningsmedlemskap"
+  genetic_data:
+    en: "genetic data"
+    no: "genetiske opplysninger"
+  biometric_data:
+    en: "biometric data"
+    no: "biometriske opplysninger"
+  health_data:
+    en: "data concerning health"
+    no: "opplysninger om helse"
+  sex_life:
+    en: "sex life or sexual orientation"
+    no: "seksualliv eller seksuell orientering"
