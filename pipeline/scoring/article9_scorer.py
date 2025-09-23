@@ -1,19 +1,48 @@
 import yaml
 import re
 from collections import defaultdict
-
+import os
 
 class Article9Scorer:
-    def __init__(self, rules_path="rules/article9.yaml", terms_path="rules/article9_terms.yaml"):
-        # Load Article 9 rules
-        with open(rules_path, "r", encoding="utf-8") as f:
-            self.rules = yaml.safe_load(f)
+    def __init__(self, yaml_path="rules/article9_terms.yaml"):
+        self.requirements = self.load_requirements(yaml_path)
 
-        # Load EN → NO translation terms
-        with open(terms_path, "r", encoding="utf-8") as f:
-            self.terms = yaml.safe_load(f)
+    def load_requirements(self, yaml_path):
+        with open(yaml_path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
 
-        self.max_score = self._calculate_max_score()
+        requirements = data.get("article9_requirements", [])
+        # Debug print
+        print("🔍 Loaded requirements and synonyms:")
+        for r in requirements:
+            print(f"- {r['id']} ({r['category']}): {r['requirement'].strip()}")
+            if "synonyms" in r:
+                print(f"   Synonyms: {r['synonyms']}")
+        return requirements
+
+    def score(self, text):
+        scored = []
+        for r in self.requirements:
+            # Build patterns from requirement + synonyms
+            patterns = [re.escape(r["requirement"])]
+            if "synonyms" in r:
+                patterns.extend([re.escape(s) for s in r["synonyms"]])
+
+            pattern = r"(" + "|".join(patterns) + r")"
+
+            match = re.search(pattern, text, re.IGNORECASE)
+            found = bool(match)
+            evidence = match.group(0) if match else None
+
+            scored.append({
+                "id": r["id"],
+                "category": r["category"],
+                "requirement": r["requirement"],
+                "found": found,
+                "evidence": evidence,
+            })
+        return scored
+
 
     def _calculate_max_score(self):
         """Calculate maximum possible score (all requirements counted)."""
@@ -76,7 +105,8 @@ class Article9Scorer:
                 # Check for evidence phrases if provided (also expand with NO)
                 if "evidence_phrases" in req and not found:
                     for phrase in req["evidence_phrases"]:
-                        for variant in self._expand_keywords(phrase):
+                        for variant
+ in self._expand_keywords(phrase):
                             if variant.lower() in text_lower:
                                 found = True
                                 evidence.extend(self._extract_all_contexts(text, variant))
