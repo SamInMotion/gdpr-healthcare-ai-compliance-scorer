@@ -1,0 +1,987 @@
+# Source: https://www.aleris.no/personvern
+# Retrieved: 2025-09-20
+
+
+Personvernerklæring
+
+Ditt personvern er viktig for oss. Nedenfor kan du lese mer om hvordan
+vi aktivt jobber med å ivareta ditt personvern. Her vil vi forklare
+hvordan og hvorfor vi samler inn og bruker personopplysninger om deg og
+hvordan vi behandler dine personopplysninger.
+
+Personvernerklæring
+
+Ditt personvern er viktig for oss. Nedenfor kan du lese mer om hvordan
+vi aktivt jobber med å ivareta ditt personvern. Her vil vi forklare
+hvordan og hvorfor vi samler inn og bruker personopplysninger om deg og
+hvordan vi behandler dine personopplysninger.
+
+Hva er personopplysninger, og hvem er ansvarlig for dem?
+
+Personopplysninger
+
+Personopplysninger er opplysninger og vurderinger som kan knyttes til
+deg som enkeltperson. Det kan være ditt navn, din kontaktinformasjon,
+dine helseopplysninger eller medisinske vurderinger.
+Personopplysningsloven bestemmer hvordan vi skal behandle dine
+personopplysninger. Personopplysningsloven stiller en del krav til
+behandling av det som kalles særlige kategorier av personopplysninger
+(blant annet helseopplysninger) som Aleris er pålagt å følge. Som privat
+helseforetak må vi i Aleris også forholde oss til helselovenes regler
+for behandling av personopplysninger. Relevante helselover som omhandler
+behandling av personopplysninger er spesialisthelsetjenesteloven,
+helsepersonelloven, pasientjournalloven (inkl.
+pasientjournalforskriften) pasient og brukerrettighetsloven,
+helsearkivloven etc. Samtlige lover og forskrifter kan leses
+på www.lovdata.no     
+
+Behandling av personopplysninger
+
+Behandling av personopplysninger vil si enhver bruk av
+personopplysninger, for eksempel innsamling, registrering, lagring,
+sammenstilling, utlevering, sletting osv. All behandling av
+personopplysninger er som hovedregel underlagt personopplysningsloven.
+
+Behandlingsansvarlig
+
+Den som bestemmer formålet med behandlingen av personopplysningene
+kalles behandlingsansvarlig. Det er den behandlingsansvarlige sin
+oppgave og sørge for at personopplysninger blir behandlet i henhold til
+gjeldende regelverk.
+
+Aleris Helse er behandlingsansvarlig.
+
+Kontaktopplysninger:
+Telefonnummer: 22 54 10 00
+E-post: dpo@aleris.no
+Frederik Stangs gate 11-13, 0264 Oslo
+
+Hvordan vi bruker personopplysninger
+
+Vi samler kun inn personopplysninger i den grad de er nødvendige for at
+vi skal kunne tilby våre tjenester til deg. Vårt hovedformål for
+behandlingen av dine personopplysninger er å yte forsvarlig helsehjelp,
+samt tilby våre medisinske tjenester. Utover dette behandler vi i
+enkelte tilfeller personopplysninger for markedsføringsformål. Du kan
+lese mer om det under punktet om markedsføring.
+
+Personopplysningene vi samler inn om deg er opplysninger som vi anser
+relevante for å gi deg forsvarlig helsehjelp. De opplysningene vi
+behandler har vi fått av deg, fra annen helseinstans hvor du har mottatt
+behandling, fra prøver vi tar etc.
+
+Når du blir diagnostisert, mottar helsehjelp eller medisinsk behandling
+hos Aleris så plikter vi å registrere alle opplysningene som er
+nødvendige for å yte helsehjelp i våre systemer for pasientjournaler.
+Det stilles lovkrav til føring av pasientjournal og hvilke opplysninger
+som skal nedskrives. Journalen kan eksempelvis inneholde
+kontaktinformasjon, nærmeste pårørende, sykdomshistorikk, tidligere
+behandlinger, hvilke medisiner du bruker, diagnoser, bilder fra røntgen
+etc.
+
+Vi sletter personopplysninger når de ikke lenger er nødvendige for å
+oppfylle det formålet de opprinnelig ble samlet inn for. Når det gjelder
+personopplysninger lagret i pasientjournaler gjelder andre regler, se
+mer under punktet for sletting av personopplysninger.
+
+Alle våre ansatte som behandler helseopplysninger om deg er underlagt
+taushetsplikt. Det samme gjelder andre som behandler personopplysninger
+på våre vegne.
+
+Hvem kan vi dele dine personopplysninger med?
+
+Helseforetak eller annet helsepersonell
+
+Det hender at vi blir kontaktet av helseforetak, den legen som henviste
+deg til oss eller annet helsepersonell som også gir deg medisinsk
+behandling og som ber om å få utlevert dine pasientopplysninger.
+
+Helsepersonell har anledning til å utlevere dine taushetsbelagte
+opplysninger til samarbeidende helsepersonell som er underlagt samme
+taushetsplikt som våre ansatte. Dette gjøres kun i den grad det anses
+som nødvendig for å gi deg forsvarlig helsehjelp og reglene følger av
+helsepersonelloven § 25.  Som pasient har du rett til å motsette deg
+slik utlevering. Opplysningene som eventuelt deles er begrenset til det
+som er nødvendig. Vi deler kun slik informasjon til henvisende lege
+eller dersom det etterspørres av samarbeidende personell.
+
+Offentlige myndigheter
+
+Dersom det er pålagt ved lov eller det er mistanke om at det er begått
+lovbrudd i forbindelse med bruk av våre tjenester, vil informasjonen vi
+har lagret om deg kunne utleveres til offentlige myndigheter.
+
+Databehandlere
+
+En databehandler er et selvstendig selskap eller juridisk enhet som
+behandler personopplysninger på vegne av behandlingsansvarlig. Dvs. når
+Aleris benytter underleverandører, for eksempel leverandører av system
+for pasientjournal eller røntgenmaskiner.
+
+Aleris sørger for at alle databehandlere er underlagt samme
+taushetsplikt som personell ansatt hos Aleris og at avtaler om bruk av
+databehandler oppfyller personopplysningsloven sine krav til bruk av
+databehandlere/innhold av databehandleravtaler.
+
+Aleris benytter hovedsakelig databehandlere som behandler
+personopplysninger innenfor EU/EØS. Det vil si at disse databehandlerne
+er underlagt det samme regelverket når det kommer til behandling av
+personopplysninger. Ved få unntak benyttes databehandlere som er
+lokalisert utenfor EU/EØS. I disse tilfellene har Aleris besørget at
+disse databehandlerne er underlagt tilstrekkelig beskyttelsesnivå for
+behandling av personopplysninger i henhold til GDPR art 45 flg.
+
+Offentlige helseregistre
+
+Vi er pålagt gjennom lovgiving å dele informasjon til noen offentlige
+helseregistere, som for eksempel kreftregisteret.
+
+Dine rettigheter
+
+Innsyn
+
+Du har rett til innsyn i egne personopplysninger. Dersom du ønsker å
+vite hva som er lagret av personopplysninger om deg i våre systemer kan
+du ta kontakt med det sykehuset eller røntgenavdeling som behandlet deg
+eller så kan du sende oss en forespørsel.  Vi ber om at du ikke oppgir
+sensitive personopplysninger.
+
+Retting og sletting
+
+Retting
+
+Det er viktig at opplysningene vi har om deg er riktige og oppdaterte.
+Hvis du oppdager en feil, oppfordrer vi deg til å ta kontakt med oss
+slik at opplysningene kan bli rettet. Når det gjelder opplysninger i
+pasientjournaler så er adgangen til å få opplysninger rettet begrenset
+av regler i helsepersonelloven.
+
+Sletting
+
+Du kan også kontakte oss dersom du ønsker at opplysninger skal slettes.
+Når det gjelder opplysninger i pasientjournaler så er adgangen til å få
+opplysninger slettet svært begrenset på grunn av regler i
+helsepersonelloven.
+
+Lagringstid
+
+Vi vil i utgangspunktet ikke lagre personopplysninger lenger enn det som
+er nødvendig for å oppfylle formålet med behandlingen og de lovpålagte
+pliktene vi har. Når det kommer til personopplysninger lagret i
+pasientjournal gjelder andre regler.
+
+Hovedregelen er at journalene skal oppbevares til det av hensyn til
+helsehjelpens karakter ikke lenger antas å bli bruk for dem. Aleris er
+etter helsearkivforskriften forpliktet til å avlevere journalmateriale
+til Norsk Helsearkiv etter dette.
+
+Rett til å kreve begrenset behandling av personopplysninger
+
+Du har rett til å kreve at vår behandling av personopplysninger om deg
+begrenses. Metoder for å begrense behandling er å flytte de til et annet
+behandlingssystem, gjøre utvalgte opplysninger utilgjengelige eller at
+offentlige opplysninger fjernes fra nettsted. Dette kan du be om i
+følgende situasjoner:
+
+- Dersom du mener at personopplysningene vi har lagret om deg er
+  unøyaktige, i denne forbindelse kan behandlingen begrenses i perioden
+  det tar for å kontrollere om personopplysningene er riktige.
+
+- Dersom du mener at vår behandling av personopplysninger om deg er
+  ulovlig.
+
+- Dersom Aleris ikke lenger har behov for personopplysningene, men du
+  behøver disse til å fastsette eller gjøre gjeldende rettskrav.
+
+Rett til dataportabilitet
+
+Du har rett til å ta med deg dine personopplysninger fra Aleris til en
+annen tilsvarende aktør. Dette kalles dataportabilitet. Denne retten
+gjelder kun dersom behandlingen av dine personopplysninger skjer på
+bakgrunn av et samtykke fra deg eller i forbindelse med oppfyllelse av
+en avtale mellom deg og Aleris. For ordens skyld gjøres det oppmerksom
+på at hoveddelen av den behandlingen Aleris gjør med personopplysninger
+har såkalt behandlingsgrunnlag i rettslige forpliktelser til å yte
+helsehjelp og er sånn sett ikke underlagt retten til dataportabilitet.
+
+Dersom behandlingen av personopplysningene om deg har rettslig grunnlag
+i forbindelse med oppfyllelse av en avtale eller ditt samtykke så kan du
+velge om du ønsker å få opplysningene utlevert til deg selv eller at vi
+sender de direkte til din nye medisinske behandler/ leverandør.
+
+For ordens skyld gjør vi oppmerksom på at retten til dataportabilitet
+ikke har noen innvirkning på våre plikter til oppbevaring av din
+pasientjournal.
+
+Rett til å klage til Datatilsynet
+
+Dersom du er uenig i hvordan vi behandler personopplysninger har du rett
+til å klage til Datatilsynet. Du kan lese mer om dette på Datatilsynet
+sine nettsider:
+
+https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/hvordan-kan-jeg-klage-til-datatilsynet/
+
+Personvernombud
+
+Aleris har eget personvernombud. Ta kontakt på dpo@aleris.no dersom du
+har spørsmål til hvordan vi behandler dine personopplysninger, vil be om
+retting, sletting eller innsyn eller du har andre spørsmål. Vi vil
+besvare din henvendelse så fort som mulig. Vi ber deg om ikke å sende
+personsensitiv informasjon på e-post.
+
+Digitalt verktøy for bedre journalføring 
+
+Vi bruker et digitalt verktøy som understøtter journalføring. Verktøyet
+gjør lydopptak av samtalen mellom behandler og pasient, og genererer et
+forslag til journalnotat basert på dette opptaket. Behandler går alltid
+nøye gjennom notatet før det godkjennes. Verktøyet kan bidra til å heve
+kvaliteten på journalnotater, og tilrettelegge for at behandleren kan
+bruke mer tid på deg som pasient og mindre tid på administrasjon. 
+
+Taleopptaket lagres ikke. Det brukes kun til å skape et kryptert
+journalnotat. Personopplysninger (som navn, personnummer eller
+fødselsdato) lagres ikke med mindre de eksplisitt nevnes i samtalen, og
+i slike tilfeller lagres de kun i en begrenset periode før de automatisk
+fjernes. Data er kun tilgjengelig for et begrenset antall medarbeidere
+hos Aleris og eventuelle driftspartnere, der det er et tjenstlig behov
+for å utvikle og drifte løsningen. Data lagres i en kort periode på
+servere i Europa. All data slettes når formålet er oppfylt og ellers i
+samsvar med relevant lovgivning. 
+
+Det digitale verktøyet vi benytter er levert av Tandem Health AB. 
+
+Hvis du foretrekker at vi ikke bruker det digitale verktøyet ved ditt
+besøk så kan du gi beskjed til din behandler før konsultasjonen
+begynner. 
+
+Bruk av pasientundersøkelser
+
+For å måle våre pasienters tilfredshet ved den medisinske behandlingen
+de har mottatt hos Aleris benytter vi spørreundersøkelser rettet mot
+pasienter. All behandling av personopplysninger krever rettslig
+behandlingsgrunnlag. Relevant behandlingsgrunnlag for denne behandlingen
+er interesseavveining. Interesseavveining kan brukes som
+behandlingsgrunnlag der hvor behandlingen er nødvendig for formål
+knyttet til de berettigede interessene som forfølges av den
+behandlingsansvarlige, med mindre den registrertes interesser eller
+grunnleggende rettigheter og friheter går foran og krever vern av
+personopplysninger. 
+
+Selvbetjent ankomstregistrering
+
+Vi tilbyr selvbetjent ankomstregistrering ved våre sykehus og medisinske
+sentre. Formålet er å tilby en enkel og heldigital løsning som lar deg
+selv håndtere utfylling av helseformular, innsjekk og betaling for timen
+med din egen telefon. På denne måten slipper du unødig venting i
+resepsjonen, og vi forsterker personvernet ved at du kan håndtere alt på
+egen hånd.
+
+Digital skjemautfylling
+
+2 dager før timen hos oss vil vi sende deg en SMS med påminnelse om
+timen din. Dersom du skal konsulteres hos en av våre kirurger vil du
+samtidig få tilsendt link til digital utfylling av helseerklæring. Her
+får du svare på spørsmål om helsen din som er relevante for din
+behandling.
+
+Skal timen dekkes av din helseforsikring, vil du få tilsendt skjema for
+samtykke til utlevering av dine helseopplysninger til
+forsikringsselskapet.Andre aktuelle skjemaer kan forekomme.
+
+Når du har fylt ut skjemaet som du har fått tilsendt må du identifisere
+deg med BankID før skjemaet lagres i vårt journalsystem.
+
+Ankomstregistrering
+
+En time før din avtale får du SMS med en link som du benytter til å
+registrere din ankomst. På denne måten trenger du ikke å vente på din
+tur i resepsjonen, og du kan gå rett til anvist venteområde ved legens
+kontor.
+
+Betaling med mobilen
+
+Kort tid etter ditt besøk vil du få tilsendt en SMS med link til
+betaling via vår partner PayEx. Du kan betale med kort eller Vipps.
+Betaler du ikke innen 48 timer vil du få tilsendt faktura, og da påløper
+også fakturagebyr.
+
+Slik behandles dine personopplysninger
+
+Systemet for selvbetjent ankomstregistrering kjøres fra sikre servere i
+Stockholm. Alle timer som er planlagt lagres kryptert og kun midlertidig
+på disse serverne. Her behandler vi opplysninger om din avtale hos oss,
+hvem som er din lege, ditt navn, fødselsnummer, telefonnummer og
+adresse. Dataen slettes snart formålet er oppfylt. Opplysningene er kun
+tilgjengelig for et begrenset antall medarbeidere hos Aleris og
+eventuelle driftspartnere, der det er et tjenstlig behov for å kunne gi
+nødvendig helsehjelp og for å utvikle og drifte løsningen.
+
+For å kunne tilby mobil-betaling overføres opplysningene om deg og hvor
+mye du skal betale for timen til PayEx. Opplysningene lagres midlertidig
+på europeiske servere og slettes når formålet er oppfylt og i henhold
+til relevant lovgivning.
+
+Helseportalen "Mitt Aleris"
+
+Gjennom vår helseportal "Mitt Aleris" kan du enkelt holde oversikt over
+dine timer hos oss, og selv bestille eller endre dine timer. Skal du få
+utført en operasjon gir vi deg informasjon om viktige forberedelser,
+samt råd og oppfølging i tiden etter ditt inngrep.
+
+Første gang du logger inn i appen ber vi deg om å autentisere deg med
+BankID, slik at vi er sikker på at vi ikke viser dine helseopplysninger
+til noen andre enn deg. Neste gang du logger inn kan du gjøre det enten
+ved hjelp av en 6-sifret pinkode som du selv velger, eller ved hjelp av
+fingeravtrykk eller ansiktsgjenkjenning på telefonen din. På denne måten
+sikrer vi at ikke uvedkommende får tilgang til dine helseopplysninger. 
+
+Når du har autentisert deg med BankID hentes informasjon om dine timer
+fra vårt journalsystem. Informasjonen som hentes er dato og klokkeslett
+for timen, hva slags time du har og hvem som er din behandler.
+Informasjonen lagres kryptert på din telefon. Dette gjøres for at vi
+skal kunne minne deg på viktige forberedelser og gi deg informasjon om
+ditt inngrep til riktig tidspunkt.
+
+Dersom du har automatisk sikkerhetskopiering av telefonen din i en
+sky-tjeneste vil ikke dine helseopplysninger bli sikkerhetskopiert dit.
+Hvis du sletter appen fra telefonen din slettes også den krypterte
+informasjonen om dine timer hos oss.  
+
+Markedsføring og nyhetsbrev
+
+Sosiale media
+
+Vi ønsker å være tilgjengelig for våre kunder og potensielle kunder i
+sosiale medier og har derfor profil blant annet på Facebook, Instagram,
+Snapchat, LinkedIn og Youtube. Formålet med disse sidene er å gjøre våre
+tjenester, vår kontaktinformasjon og åpningstider tilgjengelige for våre
+kunder/pasienter og potensielle pasienter. Dersom du ønsker å ta kontakt
+med oss ved hjelp av disse kanalene oppfordrer vi deg til ikke å dele
+personopplysninger. Dersom du har et spørsmål som innebærer deling av
+dine sensitive personopplysninger (eks. opplysninger om din helse)
+anbefaler vi at du heller kontakter oss per telefon slik at vi kan
+hjelpe deg.
+
+Nyhetsbrev
+
+Aleris' nyhetsbrev er et nyhetsbrev som sendes per e-post. I
+nyhetsbrevet ønsker vi å gi deg tilgang til god og kvalitetssikret
+informasjon om helserelaterte emner, svar på medisinske spørsmål samt
+nyttige råd for hvordan du kan holde deg frisk. I utsendelsene vil du
+bl.a. få informasjon om kampanjer og helsetips fra våre fagfolk.
+
+For å melde deg på vårt nyhetsbrev må du registrere din e-postadresse og
+samtykke til våre brukerbetingelser. Du kan også velge å opplyse om navn
+og registrere din nærmeste Aleris-avdeling.  Påmelding finner du her.
+
+Når du registrerer deg for å motta nyhetsbrevet samtykker du til at vi
+kan sende deg 1-2 e-poster i måneden med gratis informasjon om våre
+helsetjenester. Du samtykker også til at vi måler åpningsgrad og klikk
+på linker i nyhetsbrevet etter hver utsendelse. Dette gjøres ved hjelp
+av «web beacon», en pikselstor fil som åpnes når nyhetsbrevet åpnes. Du
+kan lese mer om hvordan vi benytter cookies/ web beacons her.
+
+Aleris bruker e-posttjenesten Make for utsendelse av nyhetsbrev.
+E-postadresse  IP-adresse, åpningsgrad og klikk vil derfor bli behandlet
+og lagret av Make, som er et norsl selskap. E-post adresse og evt. navn
+vil i tillegg være synlig for de som jobber i kommunikasjonsavdelingen
+til Aleris og Geta AS.
+
+Du kan når som helst melde deg av nyhetsbrevet. Dette gjør du ved å gå
+inn på vårt siste nyhetsbrev, og trykke på avmeldingslinken. Du kan også
+velge å fortelle hvorfor du ikke ønsker å motta nyhetsbrevet fra oss.
+Dette er frivillig og du vil uansett bli tatt bort fra listen selv om du
+velger å ikke fortelle hvorfor. Om du velger å melde deg av nyhetsbrevet
+vil all informasjon om deg bli slettet hos oss og fra vår konto hos
+Make.
+
+Vi vil ikke bruke dine opplysninger til annen markedsføring eller andre
+tjenester enn til å sende ut dette nyhetsbrevet.
+
+Webbooking
+
+På Aleris’ nettsider og i appen «Mitt Aleris» har du mulighet å selv
+bestille time hos våre spesialister. Når du bestiller time får du oppgi
+navn, telefonnummer og fødselsnummer. Det er også mulig å skrive en kort
+beskjed til legen som skal behandle deg. Disse opplysningene vil bli
+lagret i vårt journalsystem (se eget avsnitt om lagring av
+pasientopplysninger).
+
+Noen tjenester kan ikke bookes direkte i vår webbooking, og da blir en
+forespørsel om time sendt til sykehuset som skal behandle deg. Du vil
+derpå bli kontaktet av noen av våre medarbeidere for å finne en time som
+passer. Timeforespørselen vil overføres med TLS og SSL kryptering, som
+sikrer data fra nettløsningen til Aleris' kundemottak, hvor dataen blir
+dekryptert. Dine opplysninger vil kun være tilgjengelig for nødvendig
+helsepersonell i Aleris. Alle våre ansatte som behandler
+helseopplysninger er underlagt taushetsplikt.
+
+Dine personopplysninger lagres kun midlertidig på nettsiden i kryptert
+tilstand. Vår nettside og drift av denne er basert på Optimizely DXP
+teknologi hvor sikkerhet er i høysete og etter sikkerhetsbransjens beste
+praksis. Løsningen kjører på digital experience platform (DXP)
+plattform, og overholder industristandarder (inkludert ISO 27001) for
+fysisk sikkerhet og tilgjengelighet.
+
+Kontaktskjema på våre nettsider
+
+På våre nettsider har du mange muligheter for å komme i kontakt med oss
+eller sende en forespørsel til oss, deriblant kontaktskjemaer. Når du
+sender inn skjemaet til oss behandles dine personopplysninger av Aleris'
+helsepersonell.
+
+Dine personopplysninger vil bli lagret kryptert på vårt nettside i 30
+dager. Vår nettside og drift av denne er basert på Optimizely DXP
+teknologi hvor sikkerhet er i høysete og etter sikkerhetsbransjens beste
+praksis. Løsningen kjører på digital experience platform (DXP), og
+overholder industristandarder (inkludert ISO 27001) for fysisk sikkerhet
+og tilgjengelighet. Optimizelys medarbeidere får bare tilgang til data
+for autoriserte formål med arkivering, sikkerhetskopiering, restaurering
+og innsamling av anonymisert brukerstatistikk.
+
+Løsningen benytter TLS og SSL kryptering som sikrer data fra
+nettløsningen og til Aleris' kundemottak, hvor dataen blir dekryptert.
+Dine opplysninger vil kun være tilgjengelig for utvalgte ansatte i
+Aleris.
+
+Videokonsultasjon
+
+Mange av legespesialistene i Aleris kan tilby videokonsultasjon til
+pasienter som ønsker det, eller som av ulike grunner ikke har anledning
+til å møte til fysisk konsultasjon hos oss. Løsningen vi bruker til
+dette heter Aleris Online. Når konsultasjonen skal starte må du logge
+deg inn med BankID. All video er live, og samtalen lagres ikke.
+
+I enkelte tilfeller kan det være ønskelig at du tar et bilde og sender
+til legen. Bildet kan i tilfelle sendes over i chat-løsningen inne i
+Aleris Online, hvor det også blir lagret etter konsultasjonen. Både du
+og legen har mulighet til å gå inn i chatten i ettertid og se på det som
+har blitt lagret der. Løsningen tilfredsstiller alle krav til sikker
+lagring og journalføring. Du kan trekke sitt samtykke til lagring av
+data når som helst og få slettet det som eventuelt finnes lagret i
+Aleris Online.
+
+Utover dette journalfører vi samtalen akkurat på samme måte som ved en
+fysisk konsultasjon. Når det gjelder personopplysninger lagret i
+pasientjournaler gjelder andre regler, se mer under punktet for sletting
+av personopplysninger.
+
+Pasienthistorier
+
+Vi har publisert noen pasienthistorier som våre pasienter har valgt å
+dele med oss og gitt sitt samtykke til publisering på våre nettsider og
+i sosiale medier. Det er kun historier fra pasienter som har gitt sitt
+uttrykkelige og frivillige samtykke til publisering som vises på våre
+sider.
+
+Dersom du har valgt å dele din historie kan du når som helst trekke
+tilbake ditt samtykke. Du kan kontakte oss for sletting av din
+pasienthistorie per post til Aleris Helse AS v/Markedsavdelingen,
+Frederik Stangs gate 11-13, 0264 Oslo, mail til marked@aleris.no eller
+ring 22 54 10 00. Vi vil da sørge for å slette historien og eventuelle
+bilder fra nettsider og sosiale medier så fort som mulig og senest innen
+30 dager.
+
+Cookies (informasjonskapsler)
+
+Aleris benytter informasjonskapsler for å kunne analysere besøkendes
+atferd for bruk i utvikling og forbedring av nettsidene og våre
+produkter, tekniske formål for å sikre at nettsidene fungerer og
+optimalisering av sidene, og for markedsføringsformål slik som for
+eksempel å måle effekten av vår markedsføring på nett eller å målrette
+annonsering. Nærmere informasjon om hvilke informasjonskapsler vi
+benytter, hvilke data som behandles, hvem som behandler dataene og
+formålet med behandlingen kan du lese i vår cookie-policy. 
+
+Gjennomføring av endringer i denne erklæring
+
+Vi vil med jevne mellomrom oppdatere denne personvernerklæringen for å
+gjenspeile eventuelle endringer på nettstedet eller ved endringer om
+hvordan vi behandler personopplysninger.
+
+Sist oppdatert: August 2025
+
+Hva er personopplysninger, og hvem er ansvarlig for dem?
+
+Personopplysninger
+
+Personopplysninger er opplysninger og vurderinger som kan knyttes til
+deg som enkeltperson. Det kan være ditt navn, din kontaktinformasjon,
+dine helseopplysninger eller medisinske vurderinger.
+Personopplysningsloven bestemmer hvordan vi skal behandle dine
+personopplysninger. Personopplysningsloven stiller en del krav til
+behandling av det som kalles særlige kategorier av personopplysninger
+(blant annet helseopplysninger) som Aleris er pålagt å følge. Som privat
+helseforetak må vi i Aleris også forholde oss til helselovenes regler
+for behandling av personopplysninger. Relevante helselover som omhandler
+behandling av personopplysninger er spesialisthelsetjenesteloven,
+helsepersonelloven, pasientjournalloven (inkl.
+pasientjournalforskriften) pasient og brukerrettighetsloven,
+helsearkivloven etc. Samtlige lover og forskrifter kan leses
+på www.lovdata.no     
+
+Behandling av personopplysninger
+
+Behandling av personopplysninger vil si enhver bruk av
+personopplysninger, for eksempel innsamling, registrering, lagring,
+sammenstilling, utlevering, sletting osv. All behandling av
+personopplysninger er som hovedregel underlagt personopplysningsloven.
+
+Behandlingsansvarlig
+
+Den som bestemmer formålet med behandlingen av personopplysningene
+kalles behandlingsansvarlig. Det er den behandlingsansvarlige sin
+oppgave og sørge for at personopplysninger blir behandlet i henhold til
+gjeldende regelverk.
+
+Aleris Helse er behandlingsansvarlig.
+
+Kontaktopplysninger:
+Telefonnummer: 22 54 10 00
+E-post: dpo@aleris.no
+Frederik Stangs gate 11-13, 0264 Oslo
+
+Hvordan vi bruker personopplysninger
+
+Vi samler kun inn personopplysninger i den grad de er nødvendige for at
+vi skal kunne tilby våre tjenester til deg. Vårt hovedformål for
+behandlingen av dine personopplysninger er å yte forsvarlig helsehjelp,
+samt tilby våre medisinske tjenester. Utover dette behandler vi i
+enkelte tilfeller personopplysninger for markedsføringsformål. Du kan
+lese mer om det under punktet om markedsføring.
+
+Personopplysningene vi samler inn om deg er opplysninger som vi anser
+relevante for å gi deg forsvarlig helsehjelp. De opplysningene vi
+behandler har vi fått av deg, fra annen helseinstans hvor du har mottatt
+behandling, fra prøver vi tar etc.
+
+Når du blir diagnostisert, mottar helsehjelp eller medisinsk behandling
+hos Aleris så plikter vi å registrere alle opplysningene som er
+nødvendige for å yte helsehjelp i våre systemer for pasientjournaler.
+Det stilles lovkrav til føring av pasientjournal og hvilke opplysninger
+som skal nedskrives. Journalen kan eksempelvis inneholde
+kontaktinformasjon, nærmeste pårørende, sykdomshistorikk, tidligere
+behandlinger, hvilke medisiner du bruker, diagnoser, bilder fra røntgen
+etc.
+
+Vi sletter personopplysninger når de ikke lenger er nødvendige for å
+oppfylle det formålet de opprinnelig ble samlet inn for. Når det gjelder
+personopplysninger lagret i pasientjournaler gjelder andre regler, se
+mer under punktet for sletting av personopplysninger.
+
+Alle våre ansatte som behandler helseopplysninger om deg er underlagt
+taushetsplikt. Det samme gjelder andre som behandler personopplysninger
+på våre vegne.
+
+Hvem kan vi dele dine personopplysninger med?
+
+Helseforetak eller annet helsepersonell
+
+Det hender at vi blir kontaktet av helseforetak, den legen som henviste
+deg til oss eller annet helsepersonell som også gir deg medisinsk
+behandling og som ber om å få utlevert dine pasientopplysninger.
+
+Helsepersonell har anledning til å utlevere dine taushetsbelagte
+opplysninger til samarbeidende helsepersonell som er underlagt samme
+taushetsplikt som våre ansatte. Dette gjøres kun i den grad det anses
+som nødvendig for å gi deg forsvarlig helsehjelp og reglene følger av
+helsepersonelloven § 25.  Som pasient har du rett til å motsette deg
+slik utlevering. Opplysningene som eventuelt deles er begrenset til det
+som er nødvendig. Vi deler kun slik informasjon til henvisende lege
+eller dersom det etterspørres av samarbeidende personell.
+
+Offentlige myndigheter
+
+Dersom det er pålagt ved lov eller det er mistanke om at det er begått
+lovbrudd i forbindelse med bruk av våre tjenester, vil informasjonen vi
+har lagret om deg kunne utleveres til offentlige myndigheter.
+
+Databehandlere
+
+En databehandler er et selvstendig selskap eller juridisk enhet som
+behandler personopplysninger på vegne av behandlingsansvarlig. Dvs. når
+Aleris benytter underleverandører, for eksempel leverandører av system
+for pasientjournal eller røntgenmaskiner.
+
+Aleris sørger for at alle databehandlere er underlagt samme
+taushetsplikt som personell ansatt hos Aleris og at avtaler om bruk av
+databehandler oppfyller personopplysningsloven sine krav til bruk av
+databehandlere/innhold av databehandleravtaler.
+
+Aleris benytter hovedsakelig databehandlere som behandler
+personopplysninger innenfor EU/EØS. Det vil si at disse databehandlerne
+er underlagt det samme regelverket når det kommer til behandling av
+personopplysninger. Ved få unntak benyttes databehandlere som er
+lokalisert utenfor EU/EØS. I disse tilfellene har Aleris besørget at
+disse databehandlerne er underlagt tilstrekkelig beskyttelsesnivå for
+behandling av personopplysninger i henhold til GDPR art 45 flg.
+
+Offentlige helseregistre
+
+Vi er pålagt gjennom lovgiving å dele informasjon til noen offentlige
+helseregistere, som for eksempel kreftregisteret.
+
+Dine rettigheter
+
+Innsyn
+
+Du har rett til innsyn i egne personopplysninger. Dersom du ønsker å
+vite hva som er lagret av personopplysninger om deg i våre systemer kan
+du ta kontakt med det sykehuset eller røntgenavdeling som behandlet deg
+eller så kan du sende oss en forespørsel.  Vi ber om at du ikke oppgir
+sensitive personopplysninger.
+
+Retting og sletting
+
+Retting
+
+Det er viktig at opplysningene vi har om deg er riktige og oppdaterte.
+Hvis du oppdager en feil, oppfordrer vi deg til å ta kontakt med oss
+slik at opplysningene kan bli rettet. Når det gjelder opplysninger i
+pasientjournaler så er adgangen til å få opplysninger rettet begrenset
+av regler i helsepersonelloven.
+
+Sletting
+
+Du kan også kontakte oss dersom du ønsker at opplysninger skal slettes.
+Når det gjelder opplysninger i pasientjournaler så er adgangen til å få
+opplysninger slettet svært begrenset på grunn av regler i
+helsepersonelloven.
+
+Lagringstid
+
+Vi vil i utgangspunktet ikke lagre personopplysninger lenger enn det som
+er nødvendig for å oppfylle formålet med behandlingen og de lovpålagte
+pliktene vi har. Når det kommer til personopplysninger lagret i
+pasientjournal gjelder andre regler.
+
+Hovedregelen er at journalene skal oppbevares til det av hensyn til
+helsehjelpens karakter ikke lenger antas å bli bruk for dem. Aleris er
+etter helsearkivforskriften forpliktet til å avlevere journalmateriale
+til Norsk Helsearkiv etter dette.
+
+Rett til å kreve begrenset behandling av personopplysninger
+
+Du har rett til å kreve at vår behandling av personopplysninger om deg
+begrenses. Metoder for å begrense behandling er å flytte de til et annet
+behandlingssystem, gjøre utvalgte opplysninger utilgjengelige eller at
+offentlige opplysninger fjernes fra nettsted. Dette kan du be om i
+følgende situasjoner:
+
+- Dersom du mener at personopplysningene vi har lagret om deg er
+  unøyaktige, i denne forbindelse kan behandlingen begrenses i perioden
+  det tar for å kontrollere om personopplysningene er riktige.
+
+- Dersom du mener at vår behandling av personopplysninger om deg er
+  ulovlig.
+
+- Dersom Aleris ikke lenger har behov for personopplysningene, men du
+  behøver disse til å fastsette eller gjøre gjeldende rettskrav.
+
+Rett til dataportabilitet
+
+Du har rett til å ta med deg dine personopplysninger fra Aleris til en
+annen tilsvarende aktør. Dette kalles dataportabilitet. Denne retten
+gjelder kun dersom behandlingen av dine personopplysninger skjer på
+bakgrunn av et samtykke fra deg eller i forbindelse med oppfyllelse av
+en avtale mellom deg og Aleris. For ordens skyld gjøres det oppmerksom
+på at hoveddelen av den behandlingen Aleris gjør med personopplysninger
+har såkalt behandlingsgrunnlag i rettslige forpliktelser til å yte
+helsehjelp og er sånn sett ikke underlagt retten til dataportabilitet.
+
+Dersom behandlingen av personopplysningene om deg har rettslig grunnlag
+i forbindelse med oppfyllelse av en avtale eller ditt samtykke så kan du
+velge om du ønsker å få opplysningene utlevert til deg selv eller at vi
+sender de direkte til din nye medisinske behandler/ leverandør.
+
+For ordens skyld gjør vi oppmerksom på at retten til dataportabilitet
+ikke har noen innvirkning på våre plikter til oppbevaring av din
+pasientjournal.
+
+Rett til å klage til Datatilsynet
+
+Dersom du er uenig i hvordan vi behandler personopplysninger har du rett
+til å klage til Datatilsynet. Du kan lese mer om dette på Datatilsynet
+sine nettsider:
+
+https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/hvordan-kan-jeg-klage-til-datatilsynet/
+
+Personvernombud
+
+Aleris har eget personvernombud. Ta kontakt på dpo@aleris.no dersom du
+har spørsmål til hvordan vi behandler dine personopplysninger, vil be om
+retting, sletting eller innsyn eller du har andre spørsmål. Vi vil
+besvare din henvendelse så fort som mulig. Vi ber deg om ikke å sende
+personsensitiv informasjon på e-post.
+
+Digitalt verktøy for bedre journalføring 
+
+Vi bruker et digitalt verktøy som understøtter journalføring. Verktøyet
+gjør lydopptak av samtalen mellom behandler og pasient, og genererer et
+forslag til journalnotat basert på dette opptaket. Behandler går alltid
+nøye gjennom notatet før det godkjennes. Verktøyet kan bidra til å heve
+kvaliteten på journalnotater, og tilrettelegge for at behandleren kan
+bruke mer tid på deg som pasient og mindre tid på administrasjon. 
+
+Taleopptaket lagres ikke. Det brukes kun til å skape et kryptert
+journalnotat. Personopplysninger (som navn, personnummer eller
+fødselsdato) lagres ikke med mindre de eksplisitt nevnes i samtalen, og
+i slike tilfeller lagres de kun i en begrenset periode før de automatisk
+fjernes. Data er kun tilgjengelig for et begrenset antall medarbeidere
+hos Aleris og eventuelle driftspartnere, der det er et tjenstlig behov
+for å utvikle og drifte løsningen. Data lagres i en kort periode på
+servere i Europa. All data slettes når formålet er oppfylt og ellers i
+samsvar med relevant lovgivning. 
+
+Det digitale verktøyet vi benytter er levert av Tandem Health AB. 
+
+Hvis du foretrekker at vi ikke bruker det digitale verktøyet ved ditt
+besøk så kan du gi beskjed til din behandler før konsultasjonen
+begynner. 
+
+Bruk av pasientundersøkelser
+
+For å måle våre pasienters tilfredshet ved den medisinske behandlingen
+de har mottatt hos Aleris benytter vi spørreundersøkelser rettet mot
+pasienter. All behandling av personopplysninger krever rettslig
+behandlingsgrunnlag. Relevant behandlingsgrunnlag for denne behandlingen
+er interesseavveining. Interesseavveining kan brukes som
+behandlingsgrunnlag der hvor behandlingen er nødvendig for formål
+knyttet til de berettigede interessene som forfølges av den
+behandlingsansvarlige, med mindre den registrertes interesser eller
+grunnleggende rettigheter og friheter går foran og krever vern av
+personopplysninger. 
+
+Selvbetjent ankomstregistrering
+
+Vi tilbyr selvbetjent ankomstregistrering ved våre sykehus og medisinske
+sentre. Formålet er å tilby en enkel og heldigital løsning som lar deg
+selv håndtere utfylling av helseformular, innsjekk og betaling for timen
+med din egen telefon. På denne måten slipper du unødig venting i
+resepsjonen, og vi forsterker personvernet ved at du kan håndtere alt på
+egen hånd.
+
+Digital skjemautfylling
+
+2 dager før timen hos oss vil vi sende deg en SMS med påminnelse om
+timen din. Dersom du skal konsulteres hos en av våre kirurger vil du
+samtidig få tilsendt link til digital utfylling av helseerklæring. Her
+får du svare på spørsmål om helsen din som er relevante for din
+behandling.
+
+Skal timen dekkes av din helseforsikring, vil du få tilsendt skjema for
+samtykke til utlevering av dine helseopplysninger til
+forsikringsselskapet.Andre aktuelle skjemaer kan forekomme.
+
+Når du har fylt ut skjemaet som du har fått tilsendt må du identifisere
+deg med BankID før skjemaet lagres i vårt journalsystem.
+
+Ankomstregistrering
+
+En time før din avtale får du SMS med en link som du benytter til å
+registrere din ankomst. På denne måten trenger du ikke å vente på din
+tur i resepsjonen, og du kan gå rett til anvist venteområde ved legens
+kontor.
+
+Betaling med mobilen
+
+Kort tid etter ditt besøk vil du få tilsendt en SMS med link til
+betaling via vår partner PayEx. Du kan betale med kort eller Vipps.
+Betaler du ikke innen 48 timer vil du få tilsendt faktura, og da påløper
+også fakturagebyr.
+
+Slik behandles dine personopplysninger
+
+Systemet for selvbetjent ankomstregistrering kjøres fra sikre servere i
+Stockholm. Alle timer som er planlagt lagres kryptert og kun midlertidig
+på disse serverne. Her behandler vi opplysninger om din avtale hos oss,
+hvem som er din lege, ditt navn, fødselsnummer, telefonnummer og
+adresse. Dataen slettes snart formålet er oppfylt. Opplysningene er kun
+tilgjengelig for et begrenset antall medarbeidere hos Aleris og
+eventuelle driftspartnere, der det er et tjenstlig behov for å kunne gi
+nødvendig helsehjelp og for å utvikle og drifte løsningen.
+
+For å kunne tilby mobil-betaling overføres opplysningene om deg og hvor
+mye du skal betale for timen til PayEx. Opplysningene lagres midlertidig
+på europeiske servere og slettes når formålet er oppfylt og i henhold
+til relevant lovgivning.
+
+Helseportalen "Mitt Aleris"
+
+Gjennom vår helseportal "Mitt Aleris" kan du enkelt holde oversikt over
+dine timer hos oss, og selv bestille eller endre dine timer. Skal du få
+utført en operasjon gir vi deg informasjon om viktige forberedelser,
+samt råd og oppfølging i tiden etter ditt inngrep.
+
+Første gang du logger inn i appen ber vi deg om å autentisere deg med
+BankID, slik at vi er sikker på at vi ikke viser dine helseopplysninger
+til noen andre enn deg. Neste gang du logger inn kan du gjøre det enten
+ved hjelp av en 6-sifret pinkode som du selv velger, eller ved hjelp av
+fingeravtrykk eller ansiktsgjenkjenning på telefonen din. På denne måten
+sikrer vi at ikke uvedkommende får tilgang til dine helseopplysninger. 
+
+Når du har autentisert deg med BankID hentes informasjon om dine timer
+fra vårt journalsystem. Informasjonen som hentes er dato og klokkeslett
+for timen, hva slags time du har og hvem som er din behandler.
+Informasjonen lagres kryptert på din telefon. Dette gjøres for at vi
+skal kunne minne deg på viktige forberedelser og gi deg informasjon om
+ditt inngrep til riktig tidspunkt.
+
+Dersom du har automatisk sikkerhetskopiering av telefonen din i en
+sky-tjeneste vil ikke dine helseopplysninger bli sikkerhetskopiert dit.
+Hvis du sletter appen fra telefonen din slettes også den krypterte
+informasjonen om dine timer hos oss.  
+
+Markedsføring og nyhetsbrev
+
+Sosiale media
+
+Vi ønsker å være tilgjengelig for våre kunder og potensielle kunder i
+sosiale medier og har derfor profil blant annet på Facebook, Instagram,
+Snapchat, LinkedIn og Youtube. Formålet med disse sidene er å gjøre våre
+tjenester, vår kontaktinformasjon og åpningstider tilgjengelige for våre
+kunder/pasienter og potensielle pasienter. Dersom du ønsker å ta kontakt
+med oss ved hjelp av disse kanalene oppfordrer vi deg til ikke å dele
+personopplysninger. Dersom du har et spørsmål som innebærer deling av
+dine sensitive personopplysninger (eks. opplysninger om din helse)
+anbefaler vi at du heller kontakter oss per telefon slik at vi kan
+hjelpe deg.
+
+Nyhetsbrev
+
+Aleris' nyhetsbrev er et nyhetsbrev som sendes per e-post. I
+nyhetsbrevet ønsker vi å gi deg tilgang til god og kvalitetssikret
+informasjon om helserelaterte emner, svar på medisinske spørsmål samt
+nyttige råd for hvordan du kan holde deg frisk. I utsendelsene vil du
+bl.a. få informasjon om kampanjer og helsetips fra våre fagfolk.
+
+For å melde deg på vårt nyhetsbrev må du registrere din e-postadresse og
+samtykke til våre brukerbetingelser. Du kan også velge å opplyse om navn
+og registrere din nærmeste Aleris-avdeling.  Påmelding finner du her.
+
+Når du registrerer deg for å motta nyhetsbrevet samtykker du til at vi
+kan sende deg 1-2 e-poster i måneden med gratis informasjon om våre
+helsetjenester. Du samtykker også til at vi måler åpningsgrad og klikk
+på linker i nyhetsbrevet etter hver utsendelse. Dette gjøres ved hjelp
+av «web beacon», en pikselstor fil som åpnes når nyhetsbrevet åpnes. Du
+kan lese mer om hvordan vi benytter cookies/ web beacons her.
+
+Aleris bruker e-posttjenesten Make for utsendelse av nyhetsbrev.
+E-postadresse  IP-adresse, åpningsgrad og klikk vil derfor bli behandlet
+og lagret av Make, som er et norsl selskap. E-post adresse og evt. navn
+vil i tillegg være synlig for de som jobber i kommunikasjonsavdelingen
+til Aleris og Geta AS.
+
+Du kan når som helst melde deg av nyhetsbrevet. Dette gjør du ved å gå
+inn på vårt siste nyhetsbrev, og trykke på avmeldingslinken. Du kan også
+velge å fortelle hvorfor du ikke ønsker å motta nyhetsbrevet fra oss.
+Dette er frivillig og du vil uansett bli tatt bort fra listen selv om du
+velger å ikke fortelle hvorfor. Om du velger å melde deg av nyhetsbrevet
+vil all informasjon om deg bli slettet hos oss og fra vår konto hos
+Make.
+
+Vi vil ikke bruke dine opplysninger til annen markedsføring eller andre
+tjenester enn til å sende ut dette nyhetsbrevet.
+
+Webbooking
+
+På Aleris’ nettsider og i appen «Mitt Aleris» har du mulighet å selv
+bestille time hos våre spesialister. Når du bestiller time får du oppgi
+navn, telefonnummer og fødselsnummer. Det er også mulig å skrive en kort
+beskjed til legen som skal behandle deg. Disse opplysningene vil bli
+lagret i vårt journalsystem (se eget avsnitt om lagring av
+pasientopplysninger).
+
+Noen tjenester kan ikke bookes direkte i vår webbooking, og da blir en
+forespørsel om time sendt til sykehuset som skal behandle deg. Du vil
+derpå bli kontaktet av noen av våre medarbeidere for å finne en time som
+passer. Timeforespørselen vil overføres med TLS og SSL kryptering, som
+sikrer data fra nettløsningen til Aleris' kundemottak, hvor dataen blir
+dekryptert. Dine opplysninger vil kun være tilgjengelig for nødvendig
+helsepersonell i Aleris. Alle våre ansatte som behandler
+helseopplysninger er underlagt taushetsplikt.
+
+Dine personopplysninger lagres kun midlertidig på nettsiden i kryptert
+tilstand. Vår nettside og drift av denne er basert på Optimizely DXP
+teknologi hvor sikkerhet er i høysete og etter sikkerhetsbransjens beste
+praksis. Løsningen kjører på digital experience platform (DXP)
+plattform, og overholder industristandarder (inkludert ISO 27001) for
+fysisk sikkerhet og tilgjengelighet.
+
+Kontaktskjema på våre nettsider
+
+På våre nettsider har du mange muligheter for å komme i kontakt med oss
+eller sende en forespørsel til oss, deriblant kontaktskjemaer. Når du
+sender inn skjemaet til oss behandles dine personopplysninger av Aleris'
+helsepersonell.
+
+Dine personopplysninger vil bli lagret kryptert på vårt nettside i 30
+dager. Vår nettside og drift av denne er basert på Optimizely DXP
+teknologi hvor sikkerhet er i høysete og etter sikkerhetsbransjens beste
+praksis. Løsningen kjører på digital experience platform (DXP), og
+overholder industristandarder (inkludert ISO 27001) for fysisk sikkerhet
+og tilgjengelighet. Optimizelys medarbeidere får bare tilgang til data
+for autoriserte formål med arkivering, sikkerhetskopiering, restaurering
+og innsamling av anonymisert brukerstatistikk.
+
+Løsningen benytter TLS og SSL kryptering som sikrer data fra
+nettløsningen og til Aleris' kundemottak, hvor dataen blir dekryptert.
+Dine opplysninger vil kun være tilgjengelig for utvalgte ansatte i
+Aleris.
+
+Videokonsultasjon
+
+Mange av legespesialistene i Aleris kan tilby videokonsultasjon til
+pasienter som ønsker det, eller som av ulike grunner ikke har anledning
+til å møte til fysisk konsultasjon hos oss. Løsningen vi bruker til
+dette heter Aleris Online. Når konsultasjonen skal starte må du logge
+deg inn med BankID. All video er live, og samtalen lagres ikke.
+
+I enkelte tilfeller kan det være ønskelig at du tar et bilde og sender
+til legen. Bildet kan i tilfelle sendes over i chat-løsningen inne i
+Aleris Online, hvor det også blir lagret etter konsultasjonen. Både du
+og legen har mulighet til å gå inn i chatten i ettertid og se på det som
+har blitt lagret der. Løsningen tilfredsstiller alle krav til sikker
+lagring og journalføring. Du kan trekke sitt samtykke til lagring av
+data når som helst og få slettet det som eventuelt finnes lagret i
+Aleris Online.
+
+Utover dette journalfører vi samtalen akkurat på samme måte som ved en
+fysisk konsultasjon. Når det gjelder personopplysninger lagret i
+pasientjournaler gjelder andre regler, se mer under punktet for sletting
+av personopplysninger.
+
+Pasienthistorier
+
+Vi har publisert noen pasienthistorier som våre pasienter har valgt å
+dele med oss og gitt sitt samtykke til publisering på våre nettsider og
+i sosiale medier. Det er kun historier fra pasienter som har gitt sitt
+uttrykkelige og frivillige samtykke til publisering som vises på våre
+sider.
+
+Dersom du har valgt å dele din historie kan du når som helst trekke
+tilbake ditt samtykke. Du kan kontakte oss for sletting av din
+pasienthistorie per post til Aleris Helse AS v/Markedsavdelingen,
+Frederik Stangs gate 11-13, 0264 Oslo, mail til marked@aleris.no eller
+ring 22 54 10 00. Vi vil da sørge for å slette historien og eventuelle
+bilder fra nettsider og sosiale medier så fort som mulig og senest innen
+30 dager.
+
+Cookies (informasjonskapsler)
+
+Aleris benytter informasjonskapsler for å kunne analysere besøkendes
+atferd for bruk i utvikling og forbedring av nettsidene og våre
+produkter, tekniske formål for å sikre at nettsidene fungerer og
+optimalisering av sidene, og for markedsføringsformål slik som for
+eksempel å måle effekten av vår markedsføring på nett eller å målrette
+annonsering. Nærmere informasjon om hvilke informasjonskapsler vi
+benytter, hvilke data som behandles, hvem som behandler dataene og
+formålet med behandlingen kan du lese i vår cookie-policy. 
+
+Gjennomføring av endringer i denne erklæring
+
+Vi vil med jevne mellomrom oppdatere denne personvernerklæringen for å
+gjenspeile eventuelle endringer på nettstedet eller ved endringer om
+hvordan vi behandler personopplysninger.
+
+Sist oppdatert: August 2025
