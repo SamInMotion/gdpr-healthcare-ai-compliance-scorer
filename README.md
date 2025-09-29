@@ -17,6 +17,9 @@ The **GDPR Healthcare AI Compliance Scorer** is a modular project designed to **
 The project is open-source to encourage collaboration and ensure **full transparency and reproducibility**.
 
 ---
+## Scope & Limitations
+This beta release is focused on English-language privacy policies and compliance documentation. 
+Support for Norwegian and other languages will be added in future updates.
 
 ## Prerequisites
 
