@@ -1,167 +1,90 @@
-# GDPR Healthcare AI Compliance Scorer
+# GDPR Article 9 Compliance Checker
 
-Ontology-first, rules-first framework for assessing GDPR compliance in healthcare AI systems.
+A tool for checking if healthcare AI documentation addresses GDPR Article 9 (special category data) requirements.
 
----
+## What It Does
 
-## Overview
+Scans your privacy policies, DPIAs, or compliance docs and shows:
+- Which Article 9 requirements you've documented
+- What's missing from your documentation  
+- A compliance score to track improvements
 
-The **GDPR Healthcare AI Compliance Scorer** is a modular project designed to **assess AI systems for GDPR compliance**, specifically within healthcare contexts. It provides:
+Built this because manually checking 42 Article 9 requirements across multiple documents takes hours.
 
-* **Evidence-based scoring** of documents against GDPR requirements.
-* **Reproducible test cases** using synthetic data.
-* A framework that bridges **research experimentation** and **practical industry compliance verification**.
-* **Ontology + rules first approach**: requirements are explicitly modeled as rules, not hidden in ML models.
-* A **Streamlit-based UI** for interactive exploration and exporting compliance reports.
-
-The project is open-source to encourage collaboration and ensure **full transparency and reproducibility**.
-
----
-## Scope & Limitations
-This beta release is focused on English-language privacy policies and compliance documentation. 
-Support for Norwegian and other languages will be added in future updates.
-
-## Prerequisites
-
-* **Git** for version control.
-* **Bash** or a Unix-like shell for command execution.
-* **Python 3.x** (currently using 3.13) for running scoring logic.
-* **Dependencies:**
-
-  * [PyMuPDF](https://pymupdf.readthedocs.io/) (`fitz`) for extracting text from PDFs.
-  * [PyYAML](https://pyyaml.org/) for loading compliance rules.
-  * [Streamlit](https://streamlit.io/) for interactive UI and visualization.
-
----
-
-## Project Setup
-
-1. **Initialize repository**
-
+## Quick Start
 ```bash
-git init
-```
-
-2. **Create directories**
-
-```bash
-mkdir test_docs reports
-```
-
-3. **Add scoring pipeline**
-
-```bash
-mkdir -p pipeline/scoring
-touch pipeline/scoring/__init__.py
-```
-
-4. **Install dependencies**
-
-```bash
+# Install dependencies
 pip install -r requirements.txt
-```
 
----
-
-## Synthetic Test Documents for Article 9
-
-* **10 synthetic text documents** (`doc1.txt` – `doc10.txt`) under `test_docs/`.
-* **Content focus:** Simulated healthcare scenarios relevant to **Article 9: Processing of special categories of personal data**.
-* Additional reference document: **CELEX\_32016R0679\_EN\_TXT\_GDPR.pdf** (GDPR text).
-
----
-
-## Rule-Based Scoring (Article 9)
-
-1. **Rules file (`article9.yaml`)**
-
-   * Each clause of Article 9 is defined as a human-readable rule (`A9_1`, `A9_2a`, … `A9_4`).
-   * Rules specify `description`, `keywords`, and `weight`.
-
-2. **Scorer (`article9_scorer.py`)**
-
-   * Loads YAML rules and applies them to extracted text.
-   * Produces:
-
-     * **Score (0–100%)**
-     * **Compliance level** (✅ High, ⚠️ Partial, ❌ Non-compliant)
-     * **Requirements met/failed**
-     * **Warnings for critical prohibitions**
-
-3. **Streamlit App (`app.py`)**
-
-   * Upload and score PDFs interactively.
-   * Displays:
-
-     * Compliance score
-     * Passed/failed requirements
-     * Priority actions
-   * Allows exporting results to Markdown reports under `reports/`.
-
----
-
-## Example Run
-
-Run via command line:
-
-```bash
-python -m pipeline.scoring.test_all_pdfs
-```
-
-Run with UI:
-
-```bash
+# Run the web interface
 streamlit run app.py
-```
 
-Sample Streamlit output:
-
-```
-Compliance Score: 42/42 (100%)
-Requirements Met: 13
-Requirements Failed: 0
-Compliance Level: ✅ High Compliance
-Priority Actions: No high-priority issues found!
-```
-
-Generated Markdown report (example):
+# Upload a PDF and get instant compliance analysis
 
 ```
-# GDPR Article 9 Compliance Report
+Understanding Your Score
+Article 9 has 10 different legal bases (exceptions) organizations can use. Most healthcare companies rely on 2-4 of these.
+Typical scores:
 
-**Document:** CELEX_32016R0679_EN_TXT_GDPR.pdf  
-**Date:** 2025-09-20 13:25:24
+Privacy policies: 10-25% (they mention special data but don't detail all legal bases)
+DPIAs: 20-40% (more detailed, but focused on specific exceptions used)
+Compliance docs: 30-50% (comprehensive coverage of relevant exceptions)
 
-**Score:** 42 / 42 (100%)  
-**Compliance Level:** ✅ High Compliance  
+Low scores don't mean non-compliance. They mean your documentation focuses on the specific legal bases you actually use, rather than documenting all 10 possible exceptions.
+What It Checks
+Based on GDPR Article 9:
 
-## Breakdown
-- Requirements Met: 13
-- Requirements Failed: 0
-- Priority Actions: None
+Prohibition: Are you processing special category data?
+10 Legal Bases (a-j): Which exceptions apply to your processing?
+
+Explicit consent
+Employment law
+Vital interests
+Non-profit bodies
+Public data
+Legal claims
+Public interest
+Healthcare provision ← most common for medical AI
+Public health
+Research/archiving
+
+
+Safeguards: Professional secrecy requirements
+Member State Rules: Additional national restrictions
+
+Limitations
+
+Keyword-based detection: Doesn't understand context semantically
+English only (for now): Norwegian support coming
+Article 9 focus: Doesn't check other GDPR articles
+Not legal advice: Use for gap analysis, not compliance certification
+
+Example Output
+
+```bash
+Compliance Score: 7/42 (17%)
+
+✅ Found: Healthcare provision exception (Article 9.2h)
+✅ Found: Professional secrecy safeguards
+
+⚠️ Missing: Explicit consent procedures
+⚠️ Missing: Data retention policies
+⚠️ Missing: International transfer mechanisms
+
 ```
+Files
+```bash
+app.py                          # Streamlit web interface
+pipeline/scoring/article9_scorer.py  # Core scoring logic
+rules/article9.yaml             # Article 9 requirements
+test_docs/                      # Sample documents to test
+reports/                        # Generated compliance reports
 
----
+```
+Why I Built This
+Every medical AI project I've worked on struggles with GDPR Article 9 compliance documentation. Manually checking requirements across multiple documents is both time-consuming and prone to errors. This tool automates the initial review, highlighting areas that require attention.
+Contributing
+Found a bug? Have suggestions for additional checks? Open an issue or PR.
 
-## Rationale for This Approach
-
-1. **Synthetic + Real PDFs:** Ensures controlled testing while validating pipeline robustness.
-2. **Ontology + Rules First:** Keeps compliance **explicit and explainable**.
-3. **Streamlit UI:** Enables interactive analysis and quick validation.
-4. **Reports:** Standardized Markdown export for traceability.
-5. **Pipeline modularity:** Easy to extend beyond Article 9 (e.g., EU AI Act, MDR, anti-corruption).
-
----
-
-## Next Steps
-
-* Add **multi-format report generation** (JSON/CSV/HTML/PDF).
-* Expand pipeline with **additional GDPR articles**.
-* Introduce **modular compliance packs** (EU AI Act, MDR, anti-corruption).
-* Enable **fine-grained evidence tracing** (text spans linked to rule matches).
-* Improve UI with **charts and filtering options**.
-
----
-
-
-
+License
+MIT - Open Source.
