@@ -1,103 +1,90 @@
-# gdpr-healthcare-ai-compliance-scorer
-Ontology-first, rules-first framework for assessing GDPR compliance in healthcare AI systems.
-Got it! Here’s the **exact text** you can paste into your empty `README.md`. It’s structured, step-by-step, and explains the purpose/rationale of everything done so far.
+# GDPR Article 9 Compliance Checker
 
----
+A tool for checking if healthcare AI documentation addresses GDPR Article 9 (special category data) requirements.
 
-# GDPR Healthcare AI Compliance Scorer
+## What It Does
 
-## Overview
+Scans your privacy policies, DPIAs, or compliance docs and shows:
+- Which Article 9 requirements you've documented
+- What's missing from your documentation  
+- A compliance score to track improvements
 
-The **GDPR Healthcare AI Compliance Scorer** is a modular project designed to **assess AI systems for GDPR compliance**, specifically within healthcare contexts. It provides:
+Built this because manually checking 42 Article 9 requirements across multiple documents takes hours.
 
-* **Evidence-based scoring** of textual inputs against GDPR requirements.
-* **Reproducible test cases** using synthetic data.
-* A framework that bridges **research experimentation** and **practical industry compliance verification**.
+## Quick Start
+```bash
+# Install dependencies
+pip install -r requirements.txt
 
-The project is open-source to encourage collaboration and ensure **full transparency and reproducibility**.
+# Run the web interface
+streamlit run app.py
 
----
+# Upload a PDF and get instant compliance analysis
 
-## Prerequisites
+```
+Understanding Your Score
+Article 9 has 10 different legal bases (exceptions) organizations can use. Most healthcare companies rely on 2-4 of these.
+Typical scores:
 
-* **Git** for version control.
-* **Bash** or a Unix-like shell for command execution.
-* **Python 3.x** for later development of scoring models.
-* Familiarity with **GDPR, healthcare data handling, and AI/ML concepts** is recommended.
+Privacy policies: 10-25% (they mention special data but don't detail all legal bases)
+DPIAs: 20-40% (more detailed, but focused on specific exceptions used)
+Compliance docs: 30-50% (comprehensive coverage of relevant exceptions)
 
-**Rationale:** Ensures anyone replicating or extending the project can follow all steps reliably and understand why they are done.
+Low scores don't mean non-compliance. They mean your documentation focuses on the specific legal bases you actually use, rather than documenting all 10 possible exceptions.
+What It Checks
+Based on GDPR Article 9:
 
----
+Prohibition: Are you processing special category data?
+10 Legal Bases (a-j): Which exceptions apply to your processing?
 
-## Project Setup
+Explicit consent
+Employment law
+Vital interests
+Non-profit bodies
+Public data
+Legal claims
+Public interest
+Healthcare provision ← most common for medical AI
+Public health
+Research/archiving
 
-1. **Initialize repository**
+
+Safeguards: Professional secrecy requirements
+Member State Rules: Additional national restrictions
+
+Limitations
+
+Keyword-based detection: Doesn't understand context semantically
+English only (for now): Norwegian support coming
+Article 9 focus: Doesn't check other GDPR articles
+Not legal advice: Use for gap analysis, not compliance certification
+
+Example Output
 
 ```bash
-git init
+Compliance Score: 7/42 (17%)
+
+✅ Found: Healthcare provision exception (Article 9.2h)
+✅ Found: Professional secrecy safeguards
+
+⚠️ Missing: Explicit consent procedures
+⚠️ Missing: Data retention policies
+⚠️ Missing: International transfer mechanisms
+
 ```
-
-* Purpose: Establishes version control to track all changes and maintain reproducibility.
-
-2. **Create directories**
-
+Files
 ```bash
-mkdir test_docs
+app.py                          # Streamlit web interface
+pipeline/scoring/article9_scorer.py  # Core scoring logic
+rules/article9.yaml             # Article 9 requirements
+test_docs/                      # Sample documents to test
+reports/                        # Generated compliance reports
+
 ```
+Why I Built This
+Every medical AI project I've worked on struggles with GDPR Article 9 compliance documentation. Manually checking requirements across multiple documents is both time-consuming and prone to errors. This tool automates the initial review, highlighting areas that require attention.
+Contributing
+Found a bug? Have suggestions for additional checks? Open an issue or PR.
 
-* Purpose: Organizes synthetic test documents separately from code for clarity and modularity.
-
----
-
-## Synthetic Test Documents for Article 9
-
-* **10 synthetic text documents** (`doc1.txt` – `doc10.txt`) created under `test_docs/`.
-* **Content focus:** Simulated healthcare scenarios relevant to **Article 9: Processing of special categories of personal data**.
-
-**Add files to Git:**
-
-```bash
-git add test_docs/*.txt
-```
-
-* Purpose: Stages files for commit; ensures all test documents are tracked.
-
-**Commit changes:**
-
-```bash
-git commit -m "Add 10 synthetic test documents for Article 9 compliance scoring"
-```
-
-* Purpose: Creates a versioned snapshot of the project state.
-* Rationale: Provides **baseline data** for reproducible research and model development.
-
-**Push to GitHub:**
-
-```bash
-git push
-```
-
-* Purpose: Publishes changes to the remote repository.
-* Rationale: Facilitates **collaboration** and **industry transparency**.
-
-**Note:** Bash may display LF → CRLF warnings on Windows; these are normal and do not affect functionality.
-
----
-
-## Rationale for This Approach
-
-1. **Synthetic Data:** Ensures privacy while enabling realistic testing scenarios.
-2. **Stepwise Versioning:** Each addition is committed individually to maintain **traceable history**.
-3. **Bash Commands:** Using shell commands provides a **clear, reproducible setup** process.
-4. **Research & Industry Ready:** All steps are documented so both researchers and practitioners can understand, reproduce, and extend the workflow.
-
----
-
-## Next Steps
-
-* Implement **scoring logic** for Article 9 compliance.
-* Add modular packs for additional GDPR articles, EU AI Act, MDR, and anti-corruption checks.
-* Expand README progressively as new functionality is added.
-
----
-
+License
+MIT - Open Source.
