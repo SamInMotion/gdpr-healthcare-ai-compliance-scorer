@@ -2,8 +2,9 @@ import yaml
 import re
 from collections import defaultdict
 
+
 class Article9Scorer:
-    def __init__(self, yaml_path="rules/article9_scorer.yaml"):
+    def __init__(self, yaml_path="rules/article9.yaml"):
         with open(yaml_path, "r", encoding="utf-8") as f:
             self.rules = yaml.safe_load(f)
         self.max_score = self._calculate_max_score()
@@ -36,6 +37,15 @@ class Article9Scorer:
         else:
             return "❌ Non-Compliant - Major Issues"
 
+    def _get_confidence_label(self, evidence, found):
+        """Return a confidence label based on evidence type."""
+        if found and evidence:
+            return "high", "Explicit mention found"
+        elif found:
+            return "medium", "Related terms detected"
+        else:
+            return "low", "Semantic interpretation needed - manual review recommended"
+
     def score_document(self, text):
         """Score document compliance with Article 9."""
         text_lower = text.lower()
@@ -59,13 +69,15 @@ class Article9Scorer:
 
                 # Search keywords
                 for keyword_group in req["keywords"]:
+                    group_found = False
                     for kw in keyword_group:
                         if re.search(rf"\b{re.escape(kw)}\b", text_lower, flags=re.IGNORECASE):
+                            group_found = True
                             found = True
                             evidence.extend(self._extract_all_contexts(text, kw))
-                            break
-                    if found:
-                        break
+                            break  # break inner loop, continue outer
+                    if group_found:
+                        continue  # move to next keyword_group
 
                 # Search evidence phrases
                 if "evidence_phrases" in req and not found:
@@ -75,6 +87,8 @@ class Article9Scorer:
                             evidence.extend(self._extract_all_contexts(text, phrase))
                             break
 
+                confidence_level, confidence_note = self._get_confidence_label(evidence, found)
+
                 requirement_result = {
                     "id": req["id"],
                     "requirement": req["requirement"],
@@ -83,6 +97,8 @@ class Article9Scorer:
                     "weight": req["weight"],
                     "conditional": req.get("conditional", False),
                     "evidence": evidence[:5],  # limit to 5 snippets
+                    "confidence": confidence_level,
+                    "confidence_note": confidence_note,
                 }
 
                 # Update scoring

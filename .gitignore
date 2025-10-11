@@ -1,19 +1,37 @@
-# Python cache
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Reports (keep structure, not content)
+reports/*.json
+reports/*.md
+!reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # Virtual environments
 venv/
-.env
-.venv/
+env/
+ENV/
 
-# Reports (but keep .gitkeep placeholder)
-reports/*
-!reports/.gitkeep
-
-# Test PDFs
-test_docs/*.pdf
-
-# OS/editor junk
-.DS_Store
-.vscode/
+# Git line endings
+*.txt text eol=lf
+trace_log.txt
+*.svg
