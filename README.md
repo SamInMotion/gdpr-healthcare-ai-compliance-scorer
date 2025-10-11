@@ -72,7 +72,20 @@ Compliance Score: 7/42 (17%)
 ⚠️ Missing: International transfer mechanisms
 
 ```
+Limitations
+
+Keyword matching: Doesn't understand semantic context
+English only: Norwegian support coming
+Article 9 focus: Doesn't check other GDPR articles
+Not legal advice: Use for gap analysis, not compliance certification
+
+Project Structure
+app.py                              # Web interface
+pipeline/scoring/article9_scorer.py # Core logic
+rules/article9.yaml                 # Requirements definitions
+test_docs/                          # Sample documents
 Files
+
 ```bash
 app.py                          # Streamlit web interface
 pipeline/scoring/article9_scorer.py  # Core scoring logic
@@ -82,7 +95,8 @@ reports/                        # Generated compliance reports
 
 ```
 Why I Built This
-Every medical AI project I've worked on struggles with GDPR Article 9 compliance documentation. Manually checking requirements across multiple documents is both time-consuming and prone to errors. This tool automates the initial review, highlighting areas that require attention.
+Every medical AI project struggles with GDPR Article 9 compliance documentation. Manual checks are slow and error-prone. This automates the first pass and highlights what needs attention.
+
 Contributing
 Found a bug? Have suggestions for additional checks? Open an issue or PR.
 
