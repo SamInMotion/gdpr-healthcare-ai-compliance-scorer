@@ -126,13 +126,26 @@ def score_document(path):
 
 
 # --- Streamlit UI ---
-st.title("GDPR Article 9 Compliance Scorer")
+st.title("GDPR Compliance Scorer for Health Workers")
+st.markdown("""
+**Quick compliance check for healthcare AI documentation against GDPR Article 9 requirements.**  
+This is a demo tool for educational purposes - not for production compliance decisions.
+""")
 
-files = [f for f in os.listdir("test_docs") if f.endswith((".txt", ".pdf"))]
-if not files:
-    st.error("No test documents found in test_docs/. Please add some .txt or .pdf files.")
-else:
-    selected_file = st.selectbox("Choose a test document", files, key="test_doc_select")
+# Sidebar with test document information
+with st.sidebar:
+    st.markdown("### 📄 Test Documents")
+    st.markdown("""
+    Sample documents are available in the app for testing. These include:
+    - Healthcare privacy policies
+    - Data Protection Impact Assessments (DPIAs)
+    - Medical organization compliance documents
+    
+    You can also upload your own documents below.
+    """)
+    st.markdown("---")
+    st.markdown("**Note:** Test documents are for demonstration only and show typical compliance patterns.")
+
 
 
 # Option 1: Upload your own file
