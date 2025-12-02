@@ -1,4 +1,4 @@
-name: Build Docker Image
+name: Docker CI/CD
 
 on:
   push:
@@ -7,28 +7,41 @@ on:
     branches: ["main"]
 
 jobs:
-  build:
+  build-and-push:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        if: secrets.CR_PAT != ''
+        run: echo "${{ secrets.CR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Build Docker image
         uses: docker/build-push-action@v6
         with:
           context: .
-          tags: gdpr-scorer:test
-          load: true   # so Docker can actually run it inside the action (optional)
+          file: ./Dockerfile
+          tags: |
+            gdpr-scorer:test
+            ghcr.io/${{ github.repository_owner }}/gdpr-scorer:latest
+          load: true
+          push: false  # Will push manually below if secret exists
 
       - name: Test container starts
         run: |
-          docker run -d -p 8501:8501 --name scorer gdpr-scorer:test
-          sleep 10
-          docker logs scorer
+          docker run --name gdpr-test -d gdpr-scorer:test
+          sleep 5
+          docker ps -a
+          docker stop gdpr-test
+          docker rm gdpr-test
+
+      - name: Push to GHCR
+        if: secrets.CR_PAT != ''
+        run: |
+          docker push ghcr.io/${{ github.repository_owner }}/gdpr-scorer:latest
+
