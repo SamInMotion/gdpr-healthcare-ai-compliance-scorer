@@ -94,6 +94,25 @@ test_docs/                      # Sample documents to test
 reports/                        # Generated compliance reports
 
 ```
+
+## 🐳 Docker
+
+### Run locally with Docker
+```bash
+# Build the image
+docker build -t gdpr-scorer.
+
+# Run the container
+docker run -p 8501:8501 gdpr-scorer
+```
+
+Then open [http://localhost:8501](http://localhost:8501) in your browser.
+
+### CI/CD
+
+This project uses GitHub Actions to automatically build and test the Docker image on every push to `main`.
+
+[![Docker Build](https://github.com/SamInMotion/gdpr-healthcare-ai-compliance-scorer/actions/workflows/docker.yml/badge.svg)](https://github.com/SamInMotion/gdpr-healthcare-ai-compliance-scorer/actions/workflows/docker.yml)
 Why I Built This
 Every medical AI project struggles with GDPR Article 9 compliance documentation. Manual checks are slow and error-prone. This automates the first pass and highlights what needs attention.
 
