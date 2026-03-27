@@ -11,6 +11,22 @@ Scans your privacy policies, DPIAs, or compliance docs and shows:
 
 Built this because manually checking 42 Article 9 requirements across multiple documents takes hours.
 
+## Design Choice: Rules-first vs LLM
+
+We use rule-based validation for:
+- determinism
+- auditability
+- regulatory traceability
+
+LLMs are not used for compliance decisions due to non-determinism.
+
+## System Design
+
+- Rule engine (YAML-based)
+- Evidence extraction pipeline
+- Scoring layer
+- Report generator
+
 ## Quick Start
 ```bash
 # Install dependencies
