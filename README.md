@@ -11,15 +11,16 @@ Scans your privacy policies, DPIAs, or compliance docs and shows:
 
 Built this because manually checking 42 Article 9 requirements across multiple documents takes hours.
 
-## Design Choice: Rules-first vs LLM
+## Design Choice: Rules-First vs LLM
 
-We use rule-based validation for:
-- determinism
-- auditability
-- regulatory traceability
+This tool uses rule-based validation rather than LLM classification.
 
-LLMs are not used for compliance decisions due to non-determinism.
+**Why:**
+- **Determinism:** Same document always produces same result. Essential for audit trails.
+- **Auditability:** Every finding traces to a specific YAML rule. Auditors can inspect the logic.
+- **Regulatory defensibility:** "The system flagged this because rule 9.2.h matched" is defensible. "The LLM thought this was non-compliant" is not.
 
+**Trade-off:** Rules require manual curation. The current 42-rule set covers Article 9 core requirements but may miss edge cases that LLM interpretation would catch. For compliance use cases, false negatives (missing a real gap) are preferable to false positives (flagging non-issues).
 ## System Design
 
 - Rule engine (YAML-based)
@@ -68,12 +69,7 @@ Research/archiving
 Safeguards: Professional secrecy requirements
 Member State Rules: Additional national restrictions
 
-Limitations
 
-Keyword-based detection: Doesn't understand context semantically
-English only (for now): Norwegian support coming
-Article 9 focus: Doesn't check other GDPR articles
-Not legal advice: Use for gap analysis, not compliance certification
 
 Example Output
 
