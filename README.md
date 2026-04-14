@@ -39,7 +39,7 @@ streamlit run app.py
 # Upload a PDF and get instant compliance analysis
 
 ```
-Understanding Your Score
+## Understanding Your Score
 Article 9 has 10 different legal bases (exceptions) organizations can use. Most healthcare companies rely on 2-4 of these.
 Typical scores:
 
@@ -48,7 +48,8 @@ DPIAs: 20-40% (more detailed, but focused on specific exceptions used)
 Compliance docs: 30-50% (comprehensive coverage of relevant exceptions)
 
 Low scores don't mean non-compliance. They mean your documentation focuses on the specific legal bases you actually use, rather than documenting all 10 possible exceptions.
-What It Checks
+
+## What It Checks
 Based on GDPR Article 9:
 
 Prohibition: Are you processing special category data?
@@ -91,12 +92,7 @@ English only: Norwegian support coming
 Article 9 focus: Doesn't check other GDPR articles
 Not legal advice: Use for gap analysis, not compliance certification
 
-Project Structure
-app.py                              # Web interface
-pipeline/scoring/article9_scorer.py # Core logic
-rules/article9.yaml                 # Requirements definitions
-test_docs/                          # Sample documents
-Files
+
 
 ```bash
 app.py                          # Streamlit web interface
@@ -107,7 +103,7 @@ reports/                        # Generated compliance reports
 
 ```
 
-## 🐳 Docker
+##  Docker
 
 ### Run locally with Docker
 ```bash
